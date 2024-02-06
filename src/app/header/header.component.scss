@@ -1,0 +1,46 @@
+@import "../../shared/variables";
+
+.header {
+    position: relative;
+    display: block;
+    height: 20rem;
+    background-color: $color-blue;
+    background-image: $bgHeaderBig;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 20rem;
+    overflow: hidden;
+}
+
+.header__logo {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25rem;
+}
+
+/** 1440px|90em oder schmaler */
+@media (max-width: 90em) {
+    .header__logo{
+        height: auto;
+        width: 60%;
+    }
+}
+
+/** 992px |62em  oder schmaler */
+@media (max-width: 62em) {
+    .header__logo{
+        height: auto;
+        width: 80%;
+    }
+}
+
+/** 768px |48em oder schmaler */
+@media (max-width: 48em) {
+    .header {
+        height: 10rem;
+        background-size: 100% 10rem;
+    }
+}

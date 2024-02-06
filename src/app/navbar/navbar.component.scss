@@ -1,0 +1,61 @@
+@import "../../shared/variables";
+
+:host{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: $color-black;
+    color: $color-white;
+    padding: 0;
+}
+
+.list{
+    padding: 0;
+    list-style: none;   
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.list__item{
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 175ms;
+    &:hover{
+        color: $color-blue-light;
+        transition: all ease-in-out 175ms;
+    }
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+}
+
+.router-link-active{
+    color: $color-blue-dark;
+}
+
+
+/** 1440px|90em oder schmaler */
+@media (max-width: 90em) {}
+
+/** 992px |62em  oder schmaler */
+@media (max-width: 62em) {}
+
+/** 768px |48em oder schmaler */
+@media (max-width: 48em) {
+    .list{
+        gap: 0;
+    }
+}
+
+/** 768px |48em oder schmaler */
+@media (max-width: 23em) {
+    .list{
+        flex-direction: column;
+    }
+}

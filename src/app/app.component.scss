@@ -1,0 +1,19 @@
+@import "../shared/variables";
+
+:host{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100dvh;
+}
+
+
+
+/** 1440px|90em oder schmaler */
+@media (max-width: 90em) {}
+
+/** 992px |62em  oder schmaler */
+@media (max-width: 62em) {}
+
+/** 768px |48em oder schmaler */
+@media (max-width: 48em) {}
