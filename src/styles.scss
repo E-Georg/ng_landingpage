@@ -32,3 +32,22 @@ body {
     display: flex;
     min-height: 100dvh;
 }
+
+
+
+
+/** Breakpoints */
+/** 1440px|90em oder schmaler */
+@media (max-width: 90em) {}
+
+/** 992px |62em  oder schmaler */
+@media (max-width: 62em) {}
+
+/** 768px |48em oder schmaler */
+@media (max-width: 48em) {}
+
+/** 576px |36em  oder schmaler */
+@media (max-width: 36em) {}
+
+/** 400px |25em  oder schmaler */
+@media (max-width: 25em) {}
