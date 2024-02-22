@@ -42,6 +42,10 @@
 .box_logo{
   height: 1.5rem;
 }
+.box_logo-scale{
+  transform: scale(1.2);
+}
+
 
 .box_border{
   height: 0.125rem;
@@ -68,6 +72,7 @@
   object-fit: contain;
   object-position: center center;
 }
+
 
 .wrapper {
   display: flex;
