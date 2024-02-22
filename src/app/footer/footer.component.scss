@@ -9,9 +9,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color:inherit;
     border-color: inherit;
     border-top: 0.0625rem solid;
+    color:inherit;
+    text-shadow: 0.0625rem 0.0625rem 0.125rem $color-black;
 }
 
 .footer a {

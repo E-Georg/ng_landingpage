@@ -50,12 +50,13 @@
 }
 
 .box_title{
+  width: 100%;
+  color: $color-white;
   font-family: 'OpenSans';
   font-size: 1.25rem;
-  color: $color-white;
-  letter-spacing: 0.125rem;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem $color-black;
   text-align: center;
-  width: 100%;
+  letter-spacing: 0.125rem;
 }
 
 .box_icon{
