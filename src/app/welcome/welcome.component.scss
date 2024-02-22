@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import "../../shared/variables";
 
 :host {
@@ -27,7 +28,7 @@
   width: clamp(18rem, 80vw, 25rem);
   padding: 2rem;
   border-radius: 1rem;
-  border: 0.125rem solid whitesmoke;
+  border: 0.125rem solid color.adjust($color-white, $alpha: -0.75);
   background-color: rgba(0,0,0,0.5);
   transition: all ease-in-out 175ms;
   cursor: pointer;
